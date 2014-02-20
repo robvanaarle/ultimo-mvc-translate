@@ -1,0 +1,45 @@
+{
+    "name": "robvanaarle/ultimo-translate-mvc",
+    "description": "Translations for Ultimo MVC",
+    "type": "library",
+    "keywords": [
+        "translate",
+        "UltimoMVC"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+	  		{
+	    	  "name": "Rob van Aarle"
+	  		}
+	  ],
+    "repositories": [
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultmo-translate"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-phptpl-mvc"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-mvc"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-session"
+      	}
+    ],
+    "require": {
+        "robvanaarle/ultmo-translate": "dev-master",
+        "robvanaarle/ultmo-phptpl-mvc": "dev-master",
+        "robvanaarle/ultmo-mvc": "dev-master",
+        "robvanaarle/ultimo-session": "dev-master"
+    },
+    "autoload": {
+    		"psr-4": {
+       			"ultimo\\": "src/ultimo/"
+    		}
+  }
+}
+
