@@ -15,7 +15,7 @@
     "repositories": [
       	{
         	"type": "vcs",
-        	"url": "https://github.com/robvanaarle/ultmo-translate"
+        	"url": "https://github.com/robvanaarle/ultimo-translate"
       	},
       	{
         	"type": "vcs",
@@ -31,9 +31,9 @@
       	}
     ],
     "require": {
-        "robvanaarle/ultmo-translate": "dev-master",
-        "robvanaarle/ultmo-phptpl-mvc": "dev-master",
-        "robvanaarle/ultmo-mvc": "dev-master",
+        "robvanaarle/ultimo-translate": "dev-master",
+        "robvanaarle/ultimo-phptpl-mvc": "dev-master",
+        "robvanaarle/ultimo-mvc": "dev-master",
         "robvanaarle/ultimo-session": "dev-master"
     },
     "autoload": {
