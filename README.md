@@ -1,4 +1,4 @@
-# Ultimo Translate MVC
+# Ultimo MVC Translate
 Translations for Ultimo MVC
 
 An Phptpl helper for translations is supplied. Translations are inherited from:
@@ -9,7 +9,6 @@ An Phptpl helper for translations is supplied. Translations are inherited from:
 ## Requirements
 * PHP 5.3
 * Ultimo Translate
-* Ultimo PhpTpl MVC
 * Ultimo MVC
 * Ultimo Session
 
@@ -25,5 +24,5 @@ All translation files in &lt;module&gt;/views/&lt;theme&gt;/languages/&lt;locale
 	user.create = "Add user"
 	user.delete = "Remove user"
 
-### View
+### View (If using Ultimo MVC Phptpl)
 	<?php echo $this->translate('user.create') ?>
